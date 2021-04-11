@@ -377,6 +377,84 @@ summary {
 <h3>This is a level 3 header</h3>
 <p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com" class="uri">http://rmarkdown.rstudio.com</a>.</p>
 <p>Here is a link to <a href="https://www.google.com/">GOOGLE</a></p>
+<p>Here is a word in <strong>bold</strong> and another word in <strong>bold</strong>.</p>
+<p>Here is a word in <em>italics</em> and another word in <em>italics</em>.</p>
+<p>When we compile our document, we are using the <code>rmarkdown</code> package.</p>
+<p>Here are some example R commands:</p>
+<pre><code>2+2
+mean(c(1,2,3,4,5))</code></pre>
+<p>Here is an example of a non-numbered list:</p>
+<ul>
+<li>Breakfast
+<ul>
+<li>food
+<ul>
+<li>eggs</li>
+<li>toast</li>
+<li>bacon</li>
+</ul></li>
+<li>drink
+<ul>
+<li>apple juice</li>
+</ul></li>
+</ul></li>
+<li>Lunch
+<ul>
+<li>taco</li>
+</ul></li>
+<li>Dinner
+<ul>
+<li>baked chicken</li>
+<li>broccoli</li>
+<li>rice</li>
+</ul></li>
+</ul>
+<p>Here is an example of a numbered list:</p>
+<ol style="list-style-type: decimal">
+<li>Breakfast
+<ol style="list-style-type: lower-alpha">
+<li>food
+<ol style="list-style-type: lower-roman">
+<li>eggs</li>
+<li>toast</li>
+<li>bacon</li>
+</ol></li>
+<li>drink
+<ol style="list-style-type: lower-roman">
+<li>apple juice</li>
+</ol></li>
+</ol></li>
+<li>Lunch
+<ol style="list-style-type: lower-alpha">
+<li>taco</li>
+</ol></li>
+<li>Dinner
+<ol style="list-style-type: lower-alpha">
+<li>baked chicken</li>
+<li>broccoli</li>
+<li>rice</li>
+</ol></li>
+</ol>
+<p>Here is an example of a blockquote:</p>
+<blockquote>
+<p>This is a block quote. This paragraph has two lines.</p>
+<ol style="list-style-type: decimal">
+<li>This is a list inside a block quote.</li>
+<li>Second item.</li>
+</ol>
+</blockquote>
+<p>Here is an example of a nested blockquote:</p>
+<blockquote>
+<p>This is a block quote. This paragraph has two lines.</p>
+<blockquote>
+<p>This text is nested</p>
+</blockquote>
+</blockquote>
+<p>Here is an example of code in a blockquote:</p>
+<blockquote>
+<pre><code>2+2
+mean(c(1,2,3,4,5))</code></pre>
+</blockquote>
 <p>When you click the <strong>Knit</strong> button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:</p>
 <pre class="r"><code>summary(cars)</code></pre>
 <pre><code>##      speed           dist       
